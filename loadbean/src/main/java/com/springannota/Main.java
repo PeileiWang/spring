@@ -1,8 +1,8 @@
-package com.spring;
+package com.springannota;
 
-import com.spring.configuration.CDPlayConfig;
-import com.spring.soundsystem.CompactDisc;
-import com.spring.soundsystem.SgtPeppers;
+import com.springannota.configuration.CDPlayConfig;
+import com.springannota.soundsystem.CompactDisc;
+import com.springannota.soundsystem.SgtPeppers;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**

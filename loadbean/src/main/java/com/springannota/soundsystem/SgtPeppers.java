@@ -1,4 +1,4 @@
-package com.spring.soundsystem;
+package com.springannota.soundsystem;
 
 import org.springframework.stereotype.Component;
 
