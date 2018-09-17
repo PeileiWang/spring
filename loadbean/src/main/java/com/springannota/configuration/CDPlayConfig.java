@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Configuration;
  * Time 2018/8/28 21:52
  */
 @Configuration
-@ComponentScan(basePackages = "com.spring.soundsystem")
+@ComponentScan(basePackages = "com.springannota.soundsystem")
 public class CDPlayConfig {
 }
