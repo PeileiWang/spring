@@ -1,11 +1,16 @@
 package com.springxml.domain;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
+import javax.annotation.Resource;
+
 /**
  * Created by WangPeilei
  * Time 2018/9/17 13:39
  */
 public class Hi {
 
+    @Resource(name = "Hello")
     private Hello hello;
     private String str;
 
