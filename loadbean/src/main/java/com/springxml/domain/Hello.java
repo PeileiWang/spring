@@ -18,4 +18,11 @@ public class Hello {
     public void hello() {
         System.out.println("hello: " + name);
     }
+
+    @Override
+    public String toString() {
+        return "Hello{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }

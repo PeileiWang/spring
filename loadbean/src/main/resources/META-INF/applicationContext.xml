@@ -6,4 +6,12 @@
     <bean id="hello" class="com.springxml.domain.Hello">
         <property name="name" value="spring"></property>
     </bean>
+
+    <bean id="Hello" class="com.springxml.domain.Hello">
+        <property name="name" value="WangPeilei"/>
+    </bean>
+    <bean id="hi" class="com.springxml.domain.Hi">
+        <property name="hello" ref="Hello"/>
+        <property name="str" value="Str"/>
+    </bean>
 </beans>
